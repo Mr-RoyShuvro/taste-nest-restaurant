@@ -1,17 +1,16 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
     const navLinks = <>
-        <li><NavLink>Home</NavLink></li>
-        <li><NavLink>About</NavLink></li>
-        <li><NavLink>Services</NavLink></li>
-        
+        <li><Link to="/" className='text-base font-semibold text-[#FFEEAD]'>Home</Link></li>
+        <li><Link to="/" className='text-base font-semibold text-[#FFEEAD]'>About</Link></li>
+        <li><Link to="/" className='text-base font-semibold text-[#FFEEAD]'>Services</Link></li>
     </>
 
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar absolute px-10">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -34,7 +33,7 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">TasteNest</a>
+                <a className="btn btn-ghost text-xl font-bold text-white">TasteNest</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -42,7 +41,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Contact</a>
+                <a className="btn bg-[#F3AA60] text-white border-none font-semibold text-base hover:bg-[#FFB84C]">Contact</a>
             </div>
         </div>
     );

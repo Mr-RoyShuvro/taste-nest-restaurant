@@ -1,11 +1,12 @@
 import React from 'react';
 import Navbar from '../SharedPage/Navbar';
+import Banner from './Banner';
 
 const Home = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <h3>Home page</h3>
+            <Banner></Banner>
         </div>
     );
 };
