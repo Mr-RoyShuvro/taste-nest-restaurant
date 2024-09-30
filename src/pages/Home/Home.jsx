@@ -1,14 +1,17 @@
 import React from 'react';
-import Navbar from '../SharedPage/Navbar';
 import Banner from './Banner';
 import SauceSalad from './SauceSalad';
+import FoodItem from './FoodItem';
+import Carousel from './Carousel';
+
 
 const Home = () => {
     return (
         <div>
-            <Navbar></Navbar>
             <Banner></Banner>
+            <FoodItem></FoodItem>
             <SauceSalad></SauceSalad>
+            <Carousel></Carousel>
         </div>
     );
 };
