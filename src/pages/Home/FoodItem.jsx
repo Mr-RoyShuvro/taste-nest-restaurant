@@ -10,7 +10,7 @@ const FoodItem = () => {
         <div className='py-20 bg-gray-50'>
             <h3 className='text-center text-3xl font-bold text-[#444]'>Tasty Delights Await</h3>
             <p className='text-gray-900 text-center max-w-3xl mx-auto mb-10 mt-5'>Savor a selection of flavorful dishes, including burgers, pizzas, sandwiches, and rice bowls, all prepared to perfection for a delicious dining experience.</p>
-            <div className='grid grid-cols-4 gap-5 max-w-6xl mx-auto'>
+            <div className='grid grid-cols-1 md:grid-cols-4 gap-5 max-w-6xl mx-auto'>
                 {/* Card- 1 */}
                 <div className="card bg-white shadow-xl">
                     <figure>

@@ -12,7 +12,7 @@ const Contact = () => {
             <div className="hero-overlay bg-opacity-80 bg-black"></div>
             <div className='flex items-center gap-0 md:gap-36 flex-col md:flex-row max-w-6xl mx-auto' >
                 <div className="md:w-1/2 ">
-                    <div className="px-20 pt-20">
+                    <div className="px-0 md:px-20 pt-20">
                         <h3 className="text-2xl md:text-4xl font-bold pb-3 text-white">Get in Touch</h3>
                     </div>
                     <div className="hero h-[600px]">
@@ -44,7 +44,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className="md:w-1/2 px-20 py-20 space-y-14 ">
+                <div className="md:w-1/2 px-0 md:px-20 py-20 space-y-14 ">
                     
                     <div className="flex gap-5 items-center">
                         <figure className="bg-[#C7253E] rounded-full p-4 flex justify-center items-center">
