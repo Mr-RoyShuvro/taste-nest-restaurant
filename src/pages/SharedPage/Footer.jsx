@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../../assets/logo.png'
 
 const Footer = () => {
     return (
@@ -31,7 +32,10 @@ const Footer = () => {
             </footer>
             <footer className="footer bg-[#121213] text-base-content border-base-300 border-t px-10 py-4">
                 <aside className="grid-flow-col items-center">
-                    <h3 className='text-[#C7253E]'>TasteNest</h3>
+                    <div className='pr-5'>
+                        <img className='w-12 h-12' src={logo} alt="" />
+                        <h3 className='text-[#C7253E]'>TasteNest</h3>
+                    </div>
                     <p>
                         Industries Ltd.
                         <br />
