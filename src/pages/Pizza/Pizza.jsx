@@ -12,7 +12,7 @@ const Pizza = () => {
             <div className='pt-[70px] bg-red-900'>
             </div>
             <h3 className='text-center text-3xl font-bold pt-20 pb-10 text-red-900'>Pizza</h3>
-            <div className='grid grid-cols-3 gap-5 max-w-6xl mx-auto'>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-5 max-w-6xl mx-auto'>
                 {/* Card- 1 */}
                 <div className="card bg-white shadow-xl">
                     <figure>

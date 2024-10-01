@@ -1,27 +1,27 @@
 import React from 'react';
-import Burger1 from '../../assets/Burger1.jpg'
-import Burger2 from '../../assets/Burger2.jpg'
-import Burger3 from '../../assets/Burger3.jpg'
-import Burger4 from '../../assets/Burger4.jpg'
-import Burger5 from '../../assets/Burger5.jpg'
-import Burger6 from '../../assets/Burger6.jpg'
+import Rice1 from '../../assets/Rice1.png'
+import Rice2 from '../../assets/Rice2.png'
+import Rice3 from '../../assets/Rice3.png'
+import Rice4 from '../../assets/Rice4.png'
+import Rice5 from '../../assets/Rice5.png'
+import Rice6 from '../../assets/Rice6.png'
 
-const Burger = () => {
+const Rice = () => {
     return (
         <div className='pb-20 bg-gray-300'>
             <div className='pt-[70px] bg-red-900'>
             </div>
-            <h3 className='text-center text-3xl font-bold pt-20 pb-10 text-red-900'>Burger</h3>
+            <h3 className='text-center text-3xl font-bold pt-20 pb-10 text-red-900'>Rice</h3>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-5 max-w-6xl mx-auto'>
                 {/* Card- 1 */}
                 <div className="card bg-white shadow-xl">
                     <figure>
-                        <img className='h-80 '
-                            src={Burger1}
+                        <img className='h-80 py-8'
+                            src={Rice1}
                             alt="Food" />
                     </figure>
                     <div className="card-body">
-                        <h2 className=" text-center text-xl font-bold text-[#444] mb-5">Turkey Burgers</h2>
+                        <h2 className=" text-center text-xl font-bold text-[#444] mb-5">Sriracha Teriyaki Meatball Bowls</h2>
                         <div className="card-actions justify-center">
                             <h4 className='text-gray-900'>Price: $15</h4>
                         </div>
@@ -31,11 +31,11 @@ const Burger = () => {
                 <div className="card bg-white shadow-xl">
                     <figure>
                         <img className='h-80 '
-                            src={Burger2}
+                            src={Rice2}
                             alt="Food" />
                     </figure>
                     <div className="card-body">
-                        <h2 className=" text-center text-xl font-bold text-[#444] mb-5">Hamburg Steak</h2>
+                        <h2 className=" text-center text-xl font-bold text-[#444] mb-5">Sizzling Steak Burrito Bowls</h2>
                         <div className="card-actions justify-center">
                             <h4 className='text-gray-900'>Price: $15</h4>
                         </div>
@@ -45,11 +45,11 @@ const Burger = () => {
                 <div className="card bg-white shadow-xl">
                     <figure>
                         <img className='h-80 '
-                            src={Burger3}
+                            src={Rice3}
                             alt="Food" />
                     </figure>
                     <div className="card-body">
-                        <h2 className=" text-center text-xl font-bold text-[#444] mb-5">Elk Burgers</h2>
+                        <h2 className=" text-center text-xl font-bold text-[#444] mb-5">Vegetarian Mixed Rice Bowls</h2>
                         <div className="card-actions justify-center">
                             <h4 className='text-gray-900'>Price: $15</h4>
                         </div>
@@ -58,12 +58,12 @@ const Burger = () => {
                 {/* Card- 4 */}
                 <div className="card bg-white shadow-xl">
                     <figure>
-                        <img className='h-80 '
-                            src={Burger4}
+                        <img className='h-80 py-8'
+                            src={Rice4}
                             alt="Food" />
                     </figure>
                     <div className="card-body">
-                        <h2 className=" text-center text-xl font-bold text-[#444] mb-5">Black Bean</h2>
+                        <h2 className=" text-center text-xl font-bold text-[#444] mb-5">Teriyaki Chicken Rice Bowls</h2>
                         <div className="card-actions justify-center">
                             <h4 className='text-gray-900'>Price: $15</h4>
                         </div>
@@ -73,11 +73,11 @@ const Burger = () => {
                 <div className="card bg-white shadow-xl">
                     <figure>
                         <img className='h-80 '
-                            src={Burger5}
+                            src={Rice5}
                             alt="Food" />
                     </figure>
                     <div className="card-body">
-                        <h2 className=" text-center text-xl font-bold text-[#444] mb-5">Wild Salmon</h2>
+                        <h2 className=" text-center text-xl font-bold text-[#444] mb-5">Black Rice Salad Bowls</h2>
                         <div className="card-actions justify-center">
                             <h4 className='text-gray-900'>Price: $15</h4>
                         </div>
@@ -86,12 +86,12 @@ const Burger = () => {
                 {/* Card- 6 */}
                 <div className="card bg-white shadow-xl">
                     <figure>
-                        <img className='h-80 '
-                            src={Burger6}
+                        <img className='h-80 py-8'
+                            src={Rice6}
                             alt="Food" />
                     </figure>
                     <div className="card-body">
-                        <h2 className=" text-center text-xl font-bold text-[#444] mb-5">Butter Chicken</h2>
+                        <h2 className=" text-center text-xl font-bold text-[#444] mb-5">Peanut Butter Tofu Rice Bow</h2>
                         <div className="card-actions justify-center">
                             <h4 className='text-gray-900'>Price: $15</h4>
                         </div>
@@ -103,4 +103,4 @@ const Burger = () => {
     );
 };
 
-export default Burger;
+export default Rice;

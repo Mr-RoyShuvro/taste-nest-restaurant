@@ -37,7 +37,9 @@ const FoodItem = () => {
                     <div className="card-body">
                         <h2 className=" text-center text-xl font-bold text-[#444] mb-5">Burger</h2>
                         <div className="card-actions justify-center">
-                            <button className="btn text-white border-none bg-[#C7253E] hover:bg-[#A02334]">See More Items</button>
+                            <Link to='/burger'>
+                                <button className="btn text-white border-none bg-[#C7253E] hover:bg-[#A02334]">See More Items</button>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -51,7 +53,9 @@ const FoodItem = () => {
                     <div className="card-body">
                         <h2 className=" text-center text-xl font-bold text-[#444] mb-5">Rice</h2>
                         <div className="card-actions justify-center">
-                            <button className="btn text-white border-none bg-[#C7253E] hover:bg-[#A02334]">See More Items</button>
+                            <Link to='/rice'>
+                                <button className="btn text-white border-none bg-[#C7253E] hover:bg-[#A02334]">See More Items</button>
+                            </Link>
                         </div>
                     </div>
                 </div>
