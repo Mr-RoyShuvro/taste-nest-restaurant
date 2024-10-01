@@ -36,7 +36,7 @@ const Carousel = () => {
                                     <div className="px-2 ">
                                         <h1 className="mb-5 text-4xl font-bold text-white text-center">WEEKDAY LUNCH DELIGHT</h1>
                                         <p className="mb-5 text-white max-w-3xl mx-auto text-center">Take a break with our Weekday Lunch Delight! Enjoy a two-course meal at a special price, Monday to Friday, 11 AM to 3 PM. Treat yourself to a delightful lunch today!</p>
-                                        <Link className='flex justify-center items-center' to="/online">
+                                        <Link className='flex justify-center items-center' to="/contact">
                                             <button className="btn text-white border-none bg-[#C7253E] hover:bg-[#A02334]">BOOK A TABLE</button>
                                         </Link>
                                     </div>
@@ -50,7 +50,7 @@ const Carousel = () => {
                                     <div className="px-2">
                                         <h1 className="mb-5 text-4xl font-bold text-white text-center">FAMILY FEAST SPECIAL</h1>
                                         <p className="mb-5 text-white max-w-3xl mx-auto text-center">Bring your loved ones for our Family Feast Special! Enjoy a complimentary dessert for tables of four or more. Book now and make memories over a delicious meal!</p>
-                                        <Link className='flex justify-center items-center' to="/online">
+                                        <Link className='flex justify-center items-center' to="/contact">
                                             <button className="btn text-white border-none bg-[#C7253E] hover:bg-[#A02334]">BOOK A TABLE</button>
                                         </Link>
                                     </div>

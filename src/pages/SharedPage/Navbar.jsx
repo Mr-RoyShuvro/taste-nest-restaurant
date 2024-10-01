@@ -5,8 +5,8 @@ const Navbar = () => {
 
     const navLinks = <>
         <li><Link to="/" className='text-base font-semibold text-[#FFEEAD]'>Home</Link></li>
-        <li><Link to="/" className='text-base font-semibold text-[#FFEEAD]'>About</Link></li>
-        <li><Link to="/" className='text-base font-semibold text-[#FFEEAD]'>Services</Link></li>
+        <li><Link to="/about" className='text-base font-semibold text-[#FFEEAD]'>About</Link></li>
+        <li><Link to="/services" className='text-base font-semibold text-[#FFEEAD]'>Services</Link></li>
     </>
 
     return (
@@ -41,7 +41,9 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn bg-[#F3AA60] text-white border-none font-semibold text-base hover:bg-[#FFB84C]">Contact</a>
+                <Link to='/contact'>
+                    <a className="btn bg-[#F3AA60] text-white border-none font-semibold text-base hover:bg-[#FFB84C]">Contact</a>
+                </Link>
             </div>
         </div>
     );

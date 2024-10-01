@@ -4,6 +4,7 @@ import SauceSalad from './SauceSalad';
 import FoodItem from './FoodItem';
 import Carousel from './Carousel';
 import Contact from './Contact';
+import Offer from './Offer';
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             <FoodItem></FoodItem>
             <SauceSalad></SauceSalad>
             <Carousel></Carousel>
+            <Offer></Offer>
             <Contact></Contact>
         </div>
     );
