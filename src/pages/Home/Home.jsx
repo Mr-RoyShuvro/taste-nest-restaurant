@@ -3,6 +3,7 @@ import Banner from './Banner';
 import SauceSalad from './SauceSalad';
 import FoodItem from './FoodItem';
 import Carousel from './Carousel';
+import Contact from './Contact';
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
             <FoodItem></FoodItem>
             <SauceSalad></SauceSalad>
             <Carousel></Carousel>
+            <Contact></Contact>
         </div>
     );
 };
